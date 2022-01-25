@@ -69,25 +69,15 @@ const MainContentStyled = styled.div`
         width: 90%;
       }
       .button1 {
-        position: fixed;
         width: 40%;
         right: 10%;
         bottom: 12%;
-        animation: spin 20s linear infinite;
       }
       .button2 {
         width: 25%;
         right: -1%;
         bottom: 34%;
       }
-    }
-  }
-  @keyframes spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
     }
   }
 `;
